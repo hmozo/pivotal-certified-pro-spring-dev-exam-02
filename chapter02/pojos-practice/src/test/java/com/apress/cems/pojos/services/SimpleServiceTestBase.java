@@ -27,6 +27,8 @@ SOFTWARE.
 */
 package com.apress.cems.pojos.services;
 
+import org.junit.jupiter.api.Disabled;
+
 import com.apress.cems.pojos.repos.CriminalCaseRepo;
 import com.apress.cems.pojos.repos.DetectiveRepo;
 import com.apress.cems.pojos.repos.EvidenceRepo;
@@ -43,6 +45,7 @@ import com.apress.cems.pojos.services.impl.SimpleStorageService;
  * @author Iuliana Cosmina
  * @since 1.0
  */
+
 public class SimpleServiceTestBase {
     DetectiveRepo detectiveRepo;
     CriminalCaseRepo criminalCaseRepo;
